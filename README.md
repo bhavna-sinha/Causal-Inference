@@ -20,6 +20,11 @@ To make a smart decision, you could look at historical data—what happened to c
 - Some customers would have defaulted, even if their limit remained the same.
   
 So, how do we separate the real effect of increasing the credit limit from other factors? That’s where Meta-Learners come in.
+Simple Explanation of Meta-Learners
+Think of Meta-Learners like different ways of answering the question:
+"What would have happened if we had (or had not) increased a customer's credit limit?"
+
+
 
 The main types of Meta Learners include:
 - **S-Learner**: Uses a single model with treatment as an additional feature.
