@@ -7,7 +7,18 @@ Causal Inference with Meta Learners This repository contains experiments and imp
 This repository explores **Causal Inference** techniques using **Meta Learners** to estimate heterogeneous treatment effects (HTE). The goal is to experiment with different methodologies, compare their performance, and understand their practical applications in observational data settings.
 
 ## What are Meta Learners?
-Meta Learners are machine learning-based approaches for estimating treatment effects in causal inference. They decompose the problem into multiple predictive models and allow flexible estimation of individualized treatment effects.
+Imagine you’re a bank manager deciding whether to increase a customer’s credit limit. You want to know:
+
+Will increasing the credit limit make them spend more?
+Will it increase the risk of them not paying back?
+Will it make them more loyal, reducing the chance they switch to another bank?
+To make a smart decision, you could look at historical data—what happened to customers when their limits were increased in the past. But here’s the challenge:
+
+Some people naturally spend more, even without a credit limit increase.
+Some customers would have stayed loyal anyway, regardless of the limit.
+Some customers would have defaulted, even if their limit remained the same.
+So, how do we separate the real effect of increasing the credit limit from other factors?
+That’s where Meta-Learners come in.
 
 The main types of Meta Learners include:
 - **S-Learner**: Uses a single model with treatment as an additional feature.
